@@ -1,0 +1,80 @@
+
+*{
+
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+font-size: 45px;
+color: blue;
+    }
+
+.form{
+    .inp{
+        display: flex;
+        align-items: center;
+        gap: 3%;
+    }
+.btn{
+    width: 100%;
+    margin-left: 17%;
+    display: flex;
+    align-items: center;
+    button{
+cursor: pointer;
+
+    }
+}
+}
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+
+
+    .subtitle{
+        font-size: 45px;
+color: blue;
+margin: 0;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
+
+
+.scores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .scor{
+        font-size: 45px;
+color: blue;
+margin: 0;
+
+    }
+
+    .section{
+        display: flex;
+        width: 59%;
+    justify-content: space-evenly;
+        .name{
+
+        }
+        .score{
+
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner .title {
+  font-size: 45px;
+  color: blue;
+}
+.conteiner .form .inp {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.conteiner .form .btn {
+  width: 100%;
+  margin-left: 17%;
+  display: flex;
+  align-items: center;
+}
+.conteiner .form .btn button {
+  cursor: pointer;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.results .subtitle {
+  font-size: 45px;
+  color: blue;
+  margin: 0;
+}
+.results .text {
+  font-size: 20px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scores .scor {
+  font-size: 45px;
+  color: blue;
+  margin: 0;
+}
+.scores .section {
+  display: flex;
+  width: 59%;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
