@@ -37,11 +37,20 @@ addBtn.addEventListener("click", function(event){
         event.preventDefault();
 
         text.textContent = inputValue;
+        num.textContent = numvalue;
 
         scores.addEventListener("click", function(event){
             event.preventDefault();
 
-            num.textContent = numvalue;
+            var average = document.querySelector(".average")
+            var span = document.createElement("span")
+            average.appendChild(span)
+var total = 0
+total +=numvalue
+ span.textContent = total/array.length
+
+
+
 
 
         });
@@ -49,6 +58,8 @@ addBtn.addEventListener("click", function(event){
 
 
 });
+
+
 
 
 
